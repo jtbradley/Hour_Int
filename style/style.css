@@ -1,0 +1,408 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    height:0.5px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Expletus Sans', cursive !important;
+    font-weight: 400 !important;
+    float: left !important;
+    padding-bottom: 5px !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+    border-bottom: 2px solid white;
+    margin-bottom: 0px !important;
+    margin-top:-0% !important;
+    width:100%;
+    color: white !important;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.background-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+#video-bg-elem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.blackbox {
+    width: 1000px;
+    height: 126px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #081523;
+    z-index:-1;
+    position:relative;
+}
+
+#hour-header{
+    width: 1000px;
+    height: 126px;
+    position:absolute;
+    margin:0 auto;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.blackbox2 {
+    height: auto;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius:4px;
+}
+
+
+.content {
+    padding: 15px 25px;
+    padding-bottom:20px;
+    z-index: 99999;
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    color: #e5f0f9;
+    clear: both;
+    overflow:hidden;
+}
+
+
+.nav-container{
+    width: 100%;
+    height: 126px;
+    z-index: 999999;
+    padding-top: 20px;
+    text-align:center;
+}
+
+.nav-col-left {
+    width: 303px;
+    height: 35px;
+    float: left;
+    margin-left:30px !important;
+    /*border-bottom: solid 1px lightblue;*/
+}
+
+.nav-col-left, .nav-col-right {
+    margin-top: 40px;
+}
+
+
+.nav-col-center /*:not(.logo-large)*/{
+    width:10%;
+    height: 108px;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo-large {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-col-right {
+    height: 35px;
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-col-right .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+ol {
+    margin-bottom: 0px !important;
+}
+
+ol.links {
+    padding-left: 0px;
+    width: 100%;
+}
+
+.nav-col-right .links li {
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom:5px;
+    margin-right:8px;
+    margin-left:8px;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+    color:white;
+}
+
+.selected{
+    color:red;
+}
+
+.nav-col-right .btn {
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 8.5rem;
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+.active a{
+    color: cornflowerblue !important;
+}
+
+.nav-col-right .links li:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+/*============= ABOUT ===================*/
+
+#about{
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    height:500px;
+}
+
+#about > h2{
+    text-align: center;
+}
+.about-stack{
+    display:block;
+}
+
+#about > contactdescrip {
+
+}
+
+img{
+    border-radius: 4px;
+}
+
+#about #contactdescrip > img{
+    width: 550px;
+    margin-top: 10px;
+    margin:0 auto;
+}
+
+#about #contactdescrip > p{
+    margin-top: 20px;
+}
+
+/* ============ projects page ============*/
+
+.projects-stack{
+    display:none;
+}
+
+h2 {
+    font-family: font-family: 'Rubik', sans-serif !important;
+    font-size: 4.5em !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    letter-spacing : -2px !important;
+    letter-spacing: -5px !important;
+    line-height : 80% !important;
+    margin-left: -18px !important;
+    left: 2 !important;
+    top: 10 !important;
+
+}
+
+#sspheader{
+  margin-left:0.5% !important;
+  width:46%;
+}
+
+#SSPgraphic {
+    position: relative;
+    width:350px;
+    float:right;
+    overflow:visible;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+.nodes{
+    position: absolute;
+    margin-left: -20px;
+}
+
+.descrip {
+    text-align: left;
+    position: relative !important;
+    margin-top: 16px !important;
+    line-spacing: 16px !important;
+    height:auto;
+
+}
+
+#ssp{
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    height:auto;
+}
+
+.descrip p {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.seperator{
+    border-bottom: 2px solid white;
+    width:60%;
+    margin: 30px auto;
+    position: relative;
+
+}
+
+#CC{
+    position:relative;
+    clear:both;
+    overflow:hidden;
+}
+
+#ccheader{
+    margin-right:2%;
+}
+
+#CCgraphic {
+    width:400px;
+    float:left;
+    margin-top: 30px;
+}
+
+#CC > h2 {
+    float:right;
+}
+
+
+#CCdescrip{
+    text-align: right;
+    width: 480px;
+    margin-top:20px;
+    margin-right: 15px;
+    position: relative !important;
+    line-spacing: 16px !important;
+    float:right !important;
+    display: block;
+    position:relative;
+}
+
+
+footer {
+    margin-bottom:2%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    text-align: center;
+    color: black;
+    clear:both;
+}
+
+
+
+/*================= Contact Page ======================*/
+
+#contact{
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    height:auto;
+}
+
+#contact > h2{
+    text-align: center;
+}
+
+#divwrapper{
+    position:relative;
+    height:1400px;
+}
+
+#contactcontent {
+    padding: 15px 15px;
+    z-index: 99999;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    color: #e5f0f9;
+    clear: both;
+    overflow:hidden;
+}
+
+#contact #contactdescrip > p{
+    text-align: center;
+}
+
+/*=========== Consultancy ===============*/
+
+#RCgraphic{
+    width:400px;
+    float:right;
+    margin-right:15px;
+    margin-top: -15px;
+}
+
+#RCheader{
+    margin-left: 1% !important;
+    margin-top:0 !important;
+}
+
+.RCdescrip {
+    text-align: left;
+    margin-top: 20px;
+    position: relative !important;
+    left: 10 !important;
+    top: 16 !important;
+    line-spacing: 16px !important;
+    height:280px;
+}
+
+#consultancybox {
+    padding: 15px 15px;
+    width: 70%;
+    height: 680px;
+    margin-top: 2.2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: #081523;
+    left: 15%;
+    -webkit-filter: opacity(35%);
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    overflow: auto;
+}
